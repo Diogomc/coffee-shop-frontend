@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   --background: #ccc;
   --foreground: #171717;
@@ -7,4 +7,5 @@
 
 body {
   background-color: var(--background);
+  font-family: 'roboto', sans-serif;
 }

@@ -3,4 +3,5 @@ export type products = {
     productName:string,
     productImageUrl:string,
     productPrice:number,
+    productDescription:string;
 }

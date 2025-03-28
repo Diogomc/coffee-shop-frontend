@@ -8,9 +8,14 @@ import { IoIosArrowDown } from "react-icons/io";
 export const Nav = () => {
 
     const [menuOpen, setMenuOpen] = useState(false)
-
+    const [arrowOpen, setArrowOpen] = useState(false)
     const menuOpened = () => {
         setMenuOpen(!menuOpen)
+    }
+
+    const arrowOpened = () => {
+        setArrowOpen(!arrowOpen)
+        console.log("apertou")
     }
     return (
         <div className="nav-container">
@@ -20,30 +25,30 @@ export const Nav = () => {
                 </li>
             </ul>
             <div className={`container-menu ${menuOpen ? "menu-opened" : ""}`}>
-                <ul className="logo">
-                    <li>Coffee Breathing</li>
-                </ul>
+                
                 <ul className="menu-links flex">
-                    <li className="links"><a href="#">Home</a></li>
-                    <li className='arrow'><IoIosArrowDown/></li>
-                    <li className="links"><a href="#">Know</a></li>
-                    <li className="links"><a href="#">Products</a></li>
-                    <li className="links"><a href="#">Make a Book</a></li>
+                    <li className="links"><a href="#">HOME</a></li>
+                    <li className="links"><a href="#">KNOW</a></li>
+                    <li className="links"><a href="#">MENU</a></li>
+                    <li className="links"><a href="#">BOOK AT TABLE</a></li>
+                </ul>
+                <ul className="logo">
+                    <li>COFFEE BREATHING</li>
                 </ul>
                 <ul className="socials">
                     <li className='socials-icons'>
                         <a href="#" target='_blank'>
-                            <FaYoutube color="#fff" size={40} />
+                            <FaYoutube color="000" size={40} />
                         </a>
                     </li>
                     <li className='socials-icons'>
                         <a href="#" target='_blank'>
-                            <FaLinkedin size={30} color='#fff' />
+                            <FaLinkedin size={30} color='000' />
                         </a>
                     </li>
                     <li className='socials-icons'>
                         <a href="#" target='_blank'>
-                            <FaGithubSquare color='#fff' size={30} />
+                            <FaGithubSquare color='000' size={30} />
                         </a>
                     </li>
                 </ul>

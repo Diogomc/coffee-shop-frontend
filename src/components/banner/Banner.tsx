@@ -5,7 +5,6 @@ export const Banner = () =>{
     return (
         <div className='banner-container'>
             <div className="banner">
-                <img className='banner-image' src="banner.jpg" alt="banner" />
             </div>
             <div className="title-banner">
                 <h1 className='text-7xl'><Typewriter text={"Welcome..."} loop speed={400} /></h1>

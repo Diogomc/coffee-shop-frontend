@@ -1,6 +1,7 @@
 'use client'
 import { Banner } from "@/components/banner/Banner";
-import { Main } from "@/components/main/Main";
+import { Menu } from "@/components/menu/Menu";
+
 import { Nav } from "@/components/nav/Nav";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <div>
       <Nav/>
       <Banner/>
-      <Main/>
+      <Menu/>
     </div>
   );
 }
