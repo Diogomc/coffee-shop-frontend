@@ -1,0 +1,9 @@
+.footer-container{
+    background-color: #3F4F44;
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .footer-container{
+        flex-direction: column;
+    }
+}

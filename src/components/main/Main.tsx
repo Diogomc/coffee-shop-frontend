@@ -45,12 +45,10 @@ export const Main = () => {
 
                 <div className='products-selected'>
                     <img className='image-selected' src={image} />
-
+                    
                     <div className='description-area'>
-                        <h1 className='text-white text-5xl'>{title}</h1>
-                        <p className='text-white p-12 '>{description}</p>
-
-
+                        <h1 className='text-description text-white text-5xl'>{title}</h1>
+                        <p className='text-description text-white p-12'>{description}</p>
 
                         <div className='shop-area'>
                             <div className="btn-count">

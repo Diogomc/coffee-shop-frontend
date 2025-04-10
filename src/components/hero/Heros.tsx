@@ -4,6 +4,7 @@ import '@/components/hero/hero.css'
 export const Heros = () => {
     return (
         <div className="hero flex items-center">
+
             <div className="left-hero w-full h-200 flex flex-col justify-center">
                 <h1 className="text-white text-7xl pl-10">It's a</h1>
                 <h1 className="text-white text-7xl pl-10">Coffee time<Typewriter text="..." loop speed={400} /></h1>
@@ -17,8 +18,9 @@ export const Heros = () => {
                     />
                 </p>
             </div>
-            <div className="right-hero bg-amber-950 w-full h-200">
-                <img className="w-full h-full object-cover" src="breathing.png" alt="" />
+
+            <div className="right-hero w-full h-200">
+                <img className="hero-image w-full h-full object-cover" src="breathing.png" alt="" />
             </div>
         </div>
     )

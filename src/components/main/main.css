@@ -34,3 +34,23 @@
     cursor: pointer;
     opacity: 0.8;
 }
+@media screen and (max-width: 480px) {
+    .main-first-section{
+        margin-top: 300px;
+        flex-direction: column;
+        height: 100%;
+        padding: 0;
+    }
+    .products-selected{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .description-area{
+        padding: 20px;
+        width: 100%;
+    }
+    .shop-area{
+        flex-direction: column;
+    }
+    
+}

@@ -1,3 +1,10 @@
 .nav-menu{
     background-color: #3F4F44;
 }
+
+
+@media screen and (max-width: 480px) {
+    .nav-menu{
+        width: 100%;
+    }
+}
