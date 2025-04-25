@@ -3,7 +3,7 @@ import '@/components/buttons/buttons.css'
 type props = {
     content: string;
     link:string
-    size:string
+    size?:string
 }
 
 export const Buttons = ({ content, link, size }: props) => {
