@@ -4,7 +4,6 @@ import { products } from '@/data/products'
 import { ProductsCard } from '../products-card/ProductsCard'
 import { useEffect, useState } from 'react'
 import { Buttons } from '../buttons/Buttons';
-import { Location } from '../location/Location'
 export const Main = () => {
     const [image, setImage] = useState(products[0].imageUrl)
     const [title, setTitle] = useState(products[0].name)
@@ -61,7 +60,6 @@ export const Main = () => {
             <section className='w-full'>
                 <h2 className='p-5 text-5xl text-center text-gray-600 m-10'>Find Us</h2>
                 <div className='container-location flex justify-center items-center w-full'>
-                    <Location />
                     <div className='location-area pl-30'>
                         <h3 className='text-3xl p-2 text-gray-600'>Our Location</h3>
                         <p className='text-location w-200 p-2 text-gray-600'>Coffee Breathing is conveniently located right next to the iconic Big Ben, offering a perfect spot to relax and enjoy your coffee while admiring one of London's most famous landmarks.</p>
