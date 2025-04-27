@@ -43,6 +43,9 @@
     .item{
         padding: 20px;
     }
+    .cart{
+        display: none;
+    }
    
     
 }

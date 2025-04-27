@@ -5,6 +5,8 @@ import { BiSolidCoffee } from "react-icons/bi";
 import { IoMdMenu } from "react-icons/io";
 import '@/components/nav/nav.css'
 import { useState } from "react";
+import { IoMdCart } from "react-icons/io";
+import { AiOutlineUser } from "react-icons/ai";
 export const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false)
 
@@ -27,10 +29,9 @@ export const Nav = () => {
                         <li className="item text-white text-lg p-2"><a href="#">Book now</a></li>
                     </ul>
                 </div>
-                <ul className="socials flex">
-                    <li className="cursor-pointer"><FaLinkedin size={30} color="#fff" /></li>
-                    <li className="cursor-pointer"><FaInstagram size={30} color="#fff" /></li>
-                    <li className="cursor-pointer"><FaSquareGithub size={30} color="#fff" /></li>
+                <ul className="cart flex items-center">
+                    <li><a href="#"><IoMdCart size={30} color="#fff"/></a></li>
+                    <li><a href="#"><AiOutlineUser size={30} color="#fff"/></a></li>
                 </ul>
             </div>
         </nav>
