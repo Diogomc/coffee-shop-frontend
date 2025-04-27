@@ -1,9 +1,9 @@
 'use client'
 import { Footer } from "@/components/footer/Footer";
 import { Heros } from "@/components/hero/Heros";
-import { Location } from "@/components/location/Location";
 import { Main } from "@/components/main/Main";
 import { Nav } from "@/components/nav/Nav";
+import dynamic from "next/dynamic";
 
 export default function Home() {
   return (
@@ -14,7 +14,6 @@ export default function Home() {
       <main>
         <Heros />
         <Main />
-      
       </main>
 
       <footer>

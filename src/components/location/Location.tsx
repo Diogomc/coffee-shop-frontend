@@ -1,11 +1,11 @@
 'use client'
-
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet';
 
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
 
 const defaultIcon = L.icon({
   iconUrl: (typeof markerIcon === 'string' ? markerIcon : markerIcon.src),
@@ -17,8 +17,11 @@ const defaultIcon = L.icon({
 L.Marker.prototype.options.icon = defaultIcon;
 
 export const Location = () => {
-    const position: [number, number] = [51.50080263801094, -0.12470050427637647]
- 
+    const position: [number, number]= [51.50080263801094, -0.12470050427637647]
+   
+
+
+
     return (
         <div className="w-full">
             <MapContainer
